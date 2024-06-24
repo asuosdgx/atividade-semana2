@@ -48,6 +48,7 @@ body {
 
 .nav-bar a:hover {
   color: #808080;
+
 }
 
 .bem-vindo {
@@ -79,6 +80,9 @@ body {
   color: #f2e3d5;
   text-shadow: 2px 2px #808080;
 }
+.tit-especialidades {
+  letter-spacing: 2px;
+}
 
 .box-article {
   display: flex;
@@ -106,6 +110,8 @@ body {
 
 .box-especialidades:hover {
   box-shadow: 0 0px 10px 4px #808080;
+  border: solid black 4px;
+ 
 }
 
 .depoimentGroup {
@@ -124,6 +130,9 @@ body {
   padding: 20px;
   border: 2px solid #024959;
   gap: 8px;
+}
+.testimonial-card:hover{
+  text-transform: uppercase;
 }
 
 .tit-dep h2 {
@@ -151,6 +160,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 24px 24px;
+}
+li{ 
+  list-style: none;
 }
 
 .contato a {
