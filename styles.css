@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f2e3d5;
+}
+
+.cabecalho {
+    background-color: #024959;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 0px 24px;
+}
+
+.titulo {
+    font-size: 3rem;
+    color: #f2e3d5;
+    text-shadow: 2px 2px #808080;
+    margin-bottom: 24px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-bar {
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #f2e3d5;
+    font-size: 1rem;
+}
+
+.nav-bar a:hover {
+    color: #808080;
+}
+
+.bem-vindo {
+    width: 100%;
+    background-color: #f2e3d5; 
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sub-titulo {
+    color: #024959;
+    margin: 10px;
+    font-size: 3rem;
+    text-shadow: 2px 2px #808080;
+}
+
+.intro {
+    color: #024959;
+    padding: 20px;
+}
+
+.tit-especialidades {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #024959;
+    padding: 20px;
+    color: #f2e3d5;
+    text-shadow: 2px 2px #808080;
+}
+
+.box-article {
+    display: flex;
+    background-color: #024959;
+    padding: 24px;
+    gap: 24px;
+}
+
+.box-especialidades {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.95rem;
+    gap: 24px;
+    width: 100%;
+}
+
+.box-especialidades img {
+    width: 140px;
+}
+
+.box-especialidades:hover {
+    box-shadow: 0 0px 10px 4px #808080;
+}
+
+.depoimentGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 24px 24px;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #024959;
+    gap: 8px;
+}
+
+.tit-dep h2 {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-size: 3rem;
+    text-shadow: 2px 2px #808080;
+    color: #024959;
+    margin-bottom: 12px;
+}
+
+.tit-dep2 {
+    text-align: center;
+    text-shadow: 1px 1px #808080;
+    color: #024959;
+    margin-bottom: 24px;
+}
+
+.contato {
+    background-color: #024959;
+    color: #f2e3d5;
+    display: flex;
+    font-size: 0.9rem;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #f2e3d5;
+    font-size: 1rem;
+}
+
+.contatoBox {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+}
+
+.redes a:hover {
+    color: #808080;
+}
+
+.redesBox {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #024959;
+    color: #f2e3d5;
+    height: 50px;
+    text-align: center;
+}
+
+@media (max-width:720px) {
+    .contato {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .contatoBox {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .redesBox {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .redes {
+        align-items: center;
+    }
+}
+
+@media (max-width: 920px) {
+    .cabecalho {
+      flex-direction: column;
+      padding-bottom: 12px;
+    }
+
+    .titulo {
+      font-size: 2rem;
+      padding-top: 0;
+    }
+
+    .sub-titulo {
+      font-size: 1.5rem;
+    }
+
+    .logo {
+      width: 160px;
+    }
+
+    .nav-bar {
+      justify-content: center;
+      gap: 22px;
+    }
+
+    .nav-bar a {
+      font-size: 0.9rem;
+      padding-bottom: 5px;
+    }
+
+    .box-article h2{
+      font-size:2.3rem;
+    }
+
+    .container{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contato {
+      font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .box-article {
+        flex-direction: column;
+    }
+}
