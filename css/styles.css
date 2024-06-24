@@ -80,9 +80,6 @@ body {
   color: #f2e3d5;
   text-shadow: 2px 2px #808080;
 }
-.tit-especialidades {
-  letter-spacing: 2px;
-}
 
 .box-article {
   display: flex;
@@ -195,13 +192,14 @@ li{
 }
 
 footer {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-weight: 600;
   background-color: #024959;
   color: #f2e3d5;
   height: 50px;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 @media (max-width:720px) {

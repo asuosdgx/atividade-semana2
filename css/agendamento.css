@@ -18,7 +18,7 @@ header {
   background-color: #024959;
   color: #f2e3d5;
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   text-align: center;
 }
 
@@ -30,14 +30,13 @@ header {
 .nav-bar {
   width: 100%;
   height: 100px;
-  display: flex;
   justify-content: space-evenly;
 }
 
 .nav-bar a {
   text-decoration: none;
   color: #f2e3d5;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .nav-bar a:hover {
@@ -144,9 +143,13 @@ footer {
   .container {
     padding: 10px;
   }
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-header,
+
 footer {
   padding: 15px;
 }
@@ -166,7 +169,8 @@ form input[type="submit"] {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 0em;
+  text-align: center;
 }
 
 h2 {
@@ -179,4 +183,5 @@ h2 {
 
 .redes {
   text-align: center;
+}
 }
